@@ -1,0 +1,19 @@
+{
+  "name": "coding-interviews-random-words-generator",
+  "version": "1.0.0",
+  "description": "Random words generator",
+  "main": "index.ts",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vrlehman/coding-interviews-random-words-generator.git"
+  },
+  "author": "vrlehman",
+  "license": "GNU GENERAL PUBLIC LICENSE",
+  "bugs": {
+    "url": "https://github.com/vrlehman/coding-interviews-random-words-generator/issues"
+  },
+  "homepage": "https://github.com/vrlehman/coding-interviews-random-words-generator#readme"
+}
