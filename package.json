@@ -6,7 +6,7 @@
   "scripts": {
     "build": "tsc",
     "start": "npm run build && node ./build/index.js",
-    "test": "test"
+    "test": "npm run build && ts-mocha"
   },
   "repository": {
     "type": "git",
@@ -19,6 +19,12 @@
   },
   "homepage": "https://github.com/vrlehman/coding-interviews-random-words-generator#readme",
   "devDependencies": {
+    "@types/chai": "^4.3.5",
+    "@types/expect": "^24.3.0",
+    "@types/mocha": "^10.0.1",
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "ts-mocha": "^10.0.0",
     "typescript": "^5.0.4"
   }
 }
