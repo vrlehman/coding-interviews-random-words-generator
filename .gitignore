@@ -18,11 +18,3 @@ packages/**/*.d.ts.map
 packages/**/*.d.ts
 *.d.ts.map
 *.d.ts
-
-/e2e-tests/mochawesome-report/
-/e2e-tests/.env
-/e2e-tests/**/test.*
-e2e-tests/**/tmp/**
-e2e-tests/**/tmp.*
-
-.npm-secret

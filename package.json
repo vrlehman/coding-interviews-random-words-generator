@@ -1,31 +1,32 @@
 {
-  "name": "coding-interviews-random-words-generator",
-  "version": "1.0.0",
-  "description": "Random words generator",
-  "main": "index.ts",
-  "scripts": {
-    "build": "tsc",
-    "start": "npm run build && node ./build/index.js",
-    "test": "mocha test/*.spec.ts"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/vrlehman/coding-interviews-random-words-generator.git"
-  },
-  "author": "vrlehman",
-  "license": "GNU GENERAL PUBLIC LICENSE",
-  "bugs": {
-    "url": "https://github.com/vrlehman/coding-interviews-random-words-generator/issues"
-  },
-  "homepage": "https://github.com/vrlehman/coding-interviews-random-words-generator#readme",
-  "devDependencies": {
-    "@types/chai": "^4.3.5",
-    "@types/mocha": "^10.0.1",
-    "@types/node": "^20.2.5",
-    "chai": "^4.3.7",
-    "mocha": "^10.2.0",
-    "ts-node": "^10.9.1",
-    "tslib": "^2.5.2",
-    "typescript": "^5.0.4"
-  }
+    "name": "coding-interviews-random-words-generator",
+    "version": "1.0.0",
+    "description": "Random words generator",
+    "main": "index.ts",
+    "type": "module",
+    "scripts": {
+        "build": "tsc",
+        "start": "npm run build && node ./build/index.js",
+        "test": "mocha"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/vrlehman/coding-interviews-random-words-generator.git"
+    },
+    "author": "vrlehman",
+    "license": "GNU GENERAL PUBLIC LICENSE",
+    "bugs": {
+        "url": "https://github.com/vrlehman/coding-interviews-random-words-generator/issues"
+    },
+    "homepage": "https://github.com/vrlehman/coding-interviews-random-words-generator#readme",
+    "devDependencies": {
+        "@types/chai": "^4.3.5",
+        "@types/mocha": "^10.0.1",
+        "@types/node": "^20.2.5",
+        "chai": "^4.3.7",
+        "mocha": "^10.2.0",
+        "ts-node": "^10.9.1",
+        "tslib": "^2.5.2",
+        "typescript": "^5.0.4"
+    }
 }
